@@ -30,7 +30,7 @@ app.post('/webhook', async (req, res) => {
         "source": "https://jonnathan-dialogflow-weather.herokuapp.com/",
         "payload": {
           "google": {
-            "expectUserResponse": false,
+            "expectUserResponse": true,
             "richResponse": {
               "items": [
                 {
