@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
 
-app.post('/webhook', async (req, res) => {)
+app.post('/webhook', async (req, res) => {
     if(!req.body){
         return res.sendStatus(500);
     }
