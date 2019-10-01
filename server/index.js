@@ -33,6 +33,7 @@ app.post('/webhook', async (req, res) => {
     return res.json(responseObj);
 });
 
-app.listen(8000, () => {
+var port = process.env.PORT || 3000;
+app.listen(port, () => {
     console.log('Example app listening on port 8000!');
 });
