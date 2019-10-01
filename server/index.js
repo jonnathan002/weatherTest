@@ -35,7 +35,7 @@ app.post('/webhook', async (req, res) => {
               "items": [
                 {
                   "simpleResponse": {
-                    "textToSpeech": "this is a simple response"
+                    "textToSpeech": weather
                   }
                 }
               ]
